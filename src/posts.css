@@ -1,0 +1,43 @@
+.Postpage{
+    margin-top: 10%;
+}
+h2{
+    color: black;
+    font-weight: 900;
+    font-size: 2.5rem;
+
+}
+p{
+    color: black;
+    font-size: 1.5rem;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.Delete_Post{
+    border: none;
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.Update_Button{
+    border: none;
+    height: 45px;
+    width: 150px;
+    background-color:green;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.box{
+    background-color: white;
+    box-shadow: 0 12px 12px rgba(0,0,0,.5);
+}
+.values{
+    padding: 20px;
+}

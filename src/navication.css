@@ -1,0 +1,29 @@
+body{
+    background-color: #ecf0f3;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    position: absolute;
+    flex-direction: row;
+    gap: 30px;
+    top: 0%;
+    right: 4%;
+    height: 20px;
+    position: fixed;
+    justify-content: space-around;
+    background-color:transparent;
+}
+#a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
+    color: black;
+    font-size: 1.2rem;
+}
+#a:hover{
+    color: gray;
+
+}
