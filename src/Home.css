@@ -68,15 +68,19 @@ img{
 @media only screen and (max-width:440px) {
     body{
         width: 100%;
+        position: fixed;
     }
     .commands{
         width:90%;
-        height: 720px;
+        height: 735px;
     }
     .body_content{
         width: 95%;
         position: absolute;
         top: 10%;
         left: 1%;
+    }
+    #About_page{
+        margin-top: 320px;
     }
 }
